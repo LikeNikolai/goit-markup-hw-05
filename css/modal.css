@@ -13,6 +13,7 @@
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
 }
 
 .backdrop.is-hidden .modal__window {
@@ -34,7 +35,6 @@
 
 .modal__close {
     position: absolute;
-
     display: flex;
     align-items: center;
     justify-content: center;
